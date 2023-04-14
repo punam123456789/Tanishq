@@ -156,7 +156,9 @@
             padding: 0;
             margin-top: 30px;
             border: 1px solid rgb(196, 184, 184);
-            
+            border-radius: 7px;
+            box-shadow: 8px 10px 18px rgb(189, 187, 187);
+
         }
 
         #info {
@@ -236,7 +238,7 @@
             margin-bottom: 20%;
             align-items: center;
             cursor: pointer;
-           
+
 
 
         }
@@ -276,6 +278,10 @@
             margin-left: 5px;
         }
 
+        #bt {
+            display: flex;
+        }
+
         #btn {
             font-size: 14px;
             font-weight: 700;
@@ -287,24 +293,65 @@
             /* box-shadow: none; */
             margin-left: 70px;
             margin-top: 30px;
-           
+            display: flex;
+
         }
-        #btn>button{
+
+        #btn>button {
             cursor: pointer;
             color: #fff;
             background-color: #832729;
             border: none;
             align-items: center;
-            margin-top: 14px;
-            margin-left: 17px;
+            margin-top: 11px;
+            margin-left: 20px;
 
+        }
+
+        #btnn {
+            font-size: 14px;
+            font-weight: 700;
+            width: 120px;
+            height: 50px;
+            background-color: #832729;
+            /* border: .01em solid #832729; */
+            border-radius: 7px;
+            /* box-shadow: none; */
+            margin-left: 40px;
+            margin-top: 30px;
+            display: flex;
+
+        }
+
+        #btnn>button {
+            cursor: pointer;
+            color: #fff;
+            background-color: #832729;
+            border: none;
+            align-items: center;
+            margin-top: 12px;
+            margin-left: 22px;
+
+        }
+
+        @media screen and (max-width:748px) {
+            #img {
+                display: none;
+                /* width: 100%; */
+                /* display: flex; */
+                /* flex-direction: column; */
+            }
+
+            #src>div:nth-child(1) {
+                width: 100%;
+            }
         }
     </style>
 </head>
 
 <body>
 
-    
+
 
     <div id="screen">
         <div id="scr">
@@ -339,9 +386,20 @@
                         <a href="/content/privacy-policy" target="_blank">Privacy Policy</a>
                     </DIV>
                 </div>
-                <div id="btn">
-                    <button>Request OTP</button>
+                <div id="bt">
+                    <div id="btn">
+                        <button>Request OTP</button>
+
+                    </div>
+                    <a href="signUp.html">
+                        <div id="btnn">
+                            <button>SignUp</button>
+
+                        </div>
+                    </a>
                 </div>
+
+
 
 
             </div>
