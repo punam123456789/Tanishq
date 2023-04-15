@@ -172,11 +172,12 @@
 
 
 }
+
 #navbar2 {
     margin-top: 5%;
     height: 65px;
     width: 100%;
-    font-size: small;    
+    font-size: small;
     /* border:1px solid green; */
 }
 
@@ -219,7 +220,7 @@
     width: 100%;
 }
 
-.shops{
+.shops {
     margin-top: 15%;
     /* border: 1px solid red; */
 }
@@ -239,6 +240,7 @@
     letter-spacing: 0rem;
     text-align: center;
 }
+
 .shops>div:nth-child(1)>h1 {
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -573,51 +575,57 @@
     margin-bottom: 30px;
 
 }
-.custer>div:nth-child(1){
-    width:100%;
+
+.custer>div:nth-child(1) {
+    width: 100%;
     /* height:700px; */
     /* border:1px solid red; */
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
-.custer>div:nth-child(1)>div>div>button{
+
+.custer>div:nth-child(1)>div>div>button {
     width: 40%;
-    height:50px;
-    border:1px solid brown;
-    color:brown;
-    font-size:17px;
+    height: 50px;
+    border: 1px solid brown;
+    color: brown;
+    font-size: 17px;
     margin-top: 400px;
     margin-left: 130px;
     border-radius: 10px;
 }
-.custer>div:nth-child(1)>div>div>button:hover{
-    color:white;
+
+.custer>div:nth-child(1)>div>div>button:hover {
+    color: white;
     background-color: rgb(77, 7, 7);
     border: none;
 }
-.custer>div:nth-child(1)>div:nth-child(1){
-  
-    width:32%;
-    height:500px;
+
+.custer>div:nth-child(1)>div:nth-child(1) {
+
+    width: 32%;
+    height: 500px;
     /* border:1px solid green; */
     border-radius: 10px;
     background-repeat: repeat;
     background-size: 100% 100%;
     background-image: url(https://staticimg.titan.co.in/Tanishq/Banners/home/newForYou/sparkling-avenues.jpg);
 }
-.custer>div:nth-child(1)>div:nth-child(2){
-    width:32%;
-    height:500px;
+
+.custer>div:nth-child(1)>div:nth-child(2) {
+    width: 32%;
+    height: 500px;
     /* border:1px solid green; */
     border-radius: 10px;
     background-repeat: repeat;
     background-size: 100% 100%;
     background-image: url(https://staticimg.titan.co.in/Tanishq/Banners/home/newForYou/pretty-in-pink.jpg);
 }
-.custer>div:nth-child(1)>div:nth-child(3){
-    width:32%;
-    height:500px;
+
+.custer>div:nth-child(1)>div:nth-child(3) {
+    width: 32%;
+    height: 500px;
     /* border:1px solid green; */
     border-radius: 10px;
     background-repeat: repeat;
@@ -646,59 +654,69 @@
     transform: translate(-50%, -50%);
     border: 1px solid red;
 } */
-#b6{
+#b6 {
     margin-top: 50px;
 }
-#b6>div:nth-child(2){
+
+#b6>div:nth-child(2) {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-#b6>div:nth-child(2)>div{
-    width:32%;
-    height:400px;
+
+#b6>div:nth-child(2)>div {
+    width: 32%;
+    height: 400px;
     /* border:1px solid red; */
 }
-#b6>div:nth-child(2)>div>div:nth-child(1){
-    height:350px;
-    width:100%;
+
+#b6>div:nth-child(2)>div>div:nth-child(1) {
+    height: 350px;
+    width: 100%;
     /* border:1px solid blue; */
 }
-#b6>div:nth-child(2)>div>div:nth-child(1)>img{
-    height:100%;
-    width:100%;
+
+#b6>div:nth-child(2)>div>div:nth-child(1)>img {
+    height: 100%;
+    width: 100%;
 }
-#b6>div:nth-child(2)>div:hover #hide{
+
+#b6>div:nth-child(2)>div:hover #hide {
     display: none;
 }
-#b6>div:nth-child(2)>div:hover #hoverr2{
+
+#b6>div:nth-child(2)>div:hover #hoverr2 {
     justify-content: space-between;
-    width:90%;
-    color:brown;
+    width: 90%;
+    color: brown;
 }
-#b6>div:nth-child(2)>div>div:nth-child(2){
+
+#b6>div:nth-child(2)>div>div:nth-child(2) {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:90%;
+    width: 90%;
     margin: auto;
     padding-top: 10px;
 }
-#b6>div:nth-child(2)>div>div:nth-child(2)>div:nth-child(1){
-    color:brown;
+
+#b6>div:nth-child(2)>div>div:nth-child(2)>div:nth-child(1) {
+    color: brown;
     font-size: 17px;
     /* border: 1px solid blue; */
 }
-#b6>div:nth-child(2)>div>div:nth-child(2)>div:nth-child(2){
+
+#b6>div:nth-child(2)>div>div:nth-child(2)>div:nth-child(2) {
     font-size: 17px;
     /* border:1px solid blue; */
     display: flex;
-    width:30%;
+    width: 30%;
     justify-content: space-between;
 }
-#b7{
-    width:100%;
-    height:500px;
+
+#b7 {
+    width: 100%;
+    height: 500px;
     background-image: url(" https://www.tanishq.co.in/wps/wcm/connect/tanishqrt/a94e7dbe-ef00-4523-b3c7-5d9ad861ccbf/desktop/naturefinest-desktop.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0T6206GQH590V3000-a94e7dbe-ef00-4523-b3c7-5d9ad861ccbf-desktop-otFZisl");
     background-size: 100% 100%;
     display: flex;
@@ -710,36 +728,41 @@
     /* border:1px solid red; */
     margin-bottom: 50px;
 }
-#b7>button{
-    height:50px;
-    width:240px;
+
+#b7>button {
+    height: 50px;
+    width: 240px;
     background-color: white;
     color: brown;
-    font-size:17px;
-    border:1px solid brown;
+    font-size: 17px;
+    border: 1px solid brown;
     border-radius: 10px;
     cursor: pointer;
 }
-#b7>button:hover{
-    color:white;
+
+#b7>button:hover {
+    color: white;
     background-color: rgb(77, 7, 7);
 }
-#b8{
-    width:100%;
-    height:500px;
+
+#b8 {
+    width: 100%;
+    height: 500px;
     display: flex;
     border-radius: 20px;
     border-bottom: 50px;
     margin-bottom: 100px;
     /* border:1px solid red; */
 }
-#b8>video{
-    width:100%;
-    height:100%;
+
+#b8>video {
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
-#b9{
-    width:100%;
+
+#b9 {
+    width: 100%;
     /* height:500px; */
     display: flex;
     border-radius: 20px;
@@ -747,153 +770,175 @@
     /* border:1px solid red; */
     /* margin-bottom: 100px; */
 }
-#b9>div:nth-child(1){
-    width:50%;
-    height:100%;
+
+#b9>div:nth-child(1) {
+    width: 50%;
+    height: 100%;
 }
-#b9>div:nth-child(1)>img{
-    width:100%;
-    height:100%;
+
+#b9>div:nth-child(1)>img {
+    width: 100%;
+    height: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-#b9>div:nth-child(2){
-    width:50%;
+
+#b9>div:nth-child(2) {
+    width: 50%;
     /* height:100%; */
-    background-image:url("https://www.tanishq.co.in/wps/wcm/connect/tanishqrt/2caee158-9a61-4b74-b677-4748a5fb2e5e/smartphone/rivah_D.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0T6206GQH590V3000-2caee158-9a61-4b74-b677-4748a5fb2e5e-desktop-odkhNkR");
-   background-repeat: no-repeat;
-   background-size: 100%;
-   display: flex;
-   padding-bottom: 30px;
-   align-items: end;
-   justify-content: center;
+    background-image: url("https://www.tanishq.co.in/wps/wcm/connect/tanishqrt/2caee158-9a61-4b74-b677-4748a5fb2e5e/smartphone/rivah_D.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0T6206GQH590V3000-2caee158-9a61-4b74-b677-4748a5fb2e5e-desktop-odkhNkR");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    padding-bottom: 30px;
+    align-items: end;
+    justify-content: center;
 }
-#b9>div:nth-child(2)>div{
+
+#b9>div:nth-child(2)>div {
     /* border:1px solid red; */
-    height:100px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
-    width:520px;
+    width: 520px;
 }
-#b9>div:nth-child(2)>div>button{
-    height:50px;
-    width:250px;
+
+#b9>div:nth-child(2)>div>button {
+    height: 50px;
+    width: 250px;
     background-color: white;
     color: brown;
-    font-size:17px;
-    border:1px solid brown;
+    font-size: 17px;
+    border: 1px solid brown;
     border-radius: 10px;
     cursor: pointer;
 }
-#b9>div:nth-child(2)>div>button:hover{
-    color:white;
+
+#b9>div:nth-child(2)>div>button:hover {
+    color: white;
     background-color: rgb(77, 7, 7);
 }
-#b10>div:nth-child(2){
-    width:100%;
+
+#b10>div:nth-child(2) {
+    width: 100%;
     /* height:230px; */
     /* border:1px solid brown; */
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
 }
-#b10>div:nth-child(2)>div:nth-child(1){
-    height:200px;
-    width:48%;
-    border:1px solid brown;
+
+#b10>div:nth-child(2)>div:nth-child(1) {
+    height: 200px;
+    width: 48%;
+    border: 1px solid brown;
     border-radius: 20px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url("https://www.tanishq.co.in/wps/wcm/connect/tanishqrt/1571a927-92bc-453b-891b-75755705ee6f/findringsize.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0T6206GQH590V3000-1571a927-92bc-453b-891b-75755705ee6f-odkdApJ");
 }
-#b10>div:nth-child(2)>div:nth-child(2){
-    height:200px;
-    width:48%;
-    border:1px solid brown;
+
+#b10>div:nth-child(2)>div:nth-child(2) {
+    height: 200px;
+    width: 48%;
+    border: 1px solid brown;
     border-radius: 20px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url("https://www.tanishq.co.in/wps/wcm/connect/tanishqrt/48e2fc16-48d4-47c7-a218-dd03509138f1/jewllerycare.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0T6206GQH590V3000-48e2fc16-48d4-47c7-a218-dd03509138f1-odkdJHG");
 }
-.b10same{
-    height:100px;
-    width:91%;
+
+.b10same {
+    height: 100px;
+    width: 91%;
     /* border:1px solid green; */
     margin-top: 50px;
     margin-left: 50px;
 }
-.b10same>p{
+
+.b10same>p {
     font-size: 24px;
     font-weight: bold;
     color: brown;
     margin-bottom: 20px;
 }
-.explore{
-    width:150px;
-    height:40px;
+
+.explore {
+    width: 150px;
+    height: 40px;
     background-color: #f2caca;
     opacity: .5;
     border: none;
     padding: 10px;
     display: flex;
 }
-.explore>p{
+
+.explore>p {
     font-size: 18px;
 }
-.explore:hover{
-    width:98%;
+
+.explore:hover {
+    width: 98%;
     justify-content: space-between;
 
 }
-.explore>p>i{
+
+.explore>p>i {
     margin-left: 10px;
     color: brown;
 }
-#b11>div:nth-child(2){
-    width:100%;
+
+#b11>div:nth-child(2) {
+    width: 100%;
     /* height:200px; */
     /* border:1px solid red; */
     display: flex;
     justify-content: space-between;
 }
-#b11>div:nth-child(2)>div{
-    width:32%;
-    height:150px;
+
+#b11>div:nth-child(2)>div {
+    width: 32%;
+    height: 150px;
     display: flex;
     padding-top: 20px;
     padding-left: 20px;
-    border:1px solid brown;
+    border: 1px solid brown;
     margin-top: 20px;
     border-radius: 10px;
     background-image: url("https://www.tanishq.co.in/wps/wcm/connect/tanishqrt/2bc65a9d-3a10-47b7-8be9-93b8672dae52/Upto-20-off-Bg.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0T6206GQH590V3000-2bc65a9d-3a10-47b7-8be9-93b8672dae52-o81gbDb");
 }
-#b11>div:nth-child(2)>div>div:nth-child(1){
+
+#b11>div:nth-child(2)>div>div:nth-child(1) {
     /* height:24%; */
-    width:24%;
+    width: 24%;
     /* border:1px solid blue; */
     position: absolute;
     z-index: 1;
-    
+
 }
-#b11>div:nth-child(2)>div>div:nth-child(2){
+
+#b11>div:nth-child(2)>div>div:nth-child(2) {
     /* height:100%; */
-    width:100%;
+    width: 100%;
     /* border:1px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 50%;
 }
-#b11>div:nth-child(2)>div>div:nth-child(2)>i{
-   font-size: 100px;
-   color: #dcc8c8;
-   opacity: 0.5;
+
+#b11>div:nth-child(2)>div>div:nth-child(2)>i {
+    font-size: 100px;
+    color: #dcc8c8;
+    opacity: 0.5;
 }
-#b11>div:nth-child(2)>div>div:nth-child(1)>p:nth-child(1){
+
+#b11>div:nth-child(2)>div>div:nth-child(1)>p:nth-child(1) {
     font-size: 20px;
     color: brown;
 }
-#b11>div:nth-child(2)>div>div:nth-child(1)>p:nth-child(2){
+
+#b11>div:nth-child(2)>div>div:nth-child(1)>p:nth-child(2) {
     font-size: 30px;
     color: rgb(97, 27, 27);
     font-weight: bold;
@@ -970,227 +1015,282 @@
     transform: scale(1.06);
     cursor: pointer;
 }
-@media screen and (max-width:1000px){
-    #navbar{
-        width:100%;
-    }
-    .logo>img{
+
+@media screen and (max-width:1000px) {
+    #navbar {
         width: 100%;
     }
-   .menu{
-    width: 100%;
-   }
-   .stro>div{
-    display: none;
-   }
-    #navbar1>div>div:nth-child(2){
+
+    .logo>img {
+        width: 100%;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .stro>div {
         display: none;
     }
-    #navbar1>div>div:nth-child(3){
+
+    #navbar1>div>div:nth-child(2) {
+        display: none;
+    }
+
+    #navbar1>div>div:nth-child(3) {
         justify-content: right;
         /* border:1px solid green; */
     }
-    #navbar1>div>div:nth-child(3)>div{
+
+    #navbar1>div>div:nth-child(3)>div {
         /* border:1px solid red; */
-        width:18%;
+        width: 18%;
     }
-    #navbar1>div>div:nth-child(3)>div:nth-child(2){
+
+    #navbar1>div>div:nth-child(3)>div:nth-child(2) {
         display: none;
     }
-    #hidenav{
+
+    #hidenav {
         display: block;
         display: flex;
         align-items: center;
         background-color: #f2e9e9;
     }
-    #hidenav>div{
-    width:98%;
-    height:80%;
-    /* border:1px solid red; */
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 5px;
-    background-color: white;
-    margin: auto;
-}
-#hidenav>div>input{
-    width:87%;
-    height:90%;
-    padding:10px;
-    border: none;
-}
-#hidenav>div>i{
-    width:3%;
-    /* height:100%; */
-    /* border:1px solid green; */
-    font-size: 20px;
-    margin-right: 10px;
-    color:brown;
-    /* margin-bottom: 10px; */
-}
-    #navbar1>div>div:nth-child(3){
-        width:30%;
+
+    #hidenav>div {
+        width: 98%;
+        height: 80%;
+        /* border:1px solid red; */
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 5px;
+        background-color: white;
+        margin: auto;
     }
-    #navbar2{
-        display:none;
+
+    #hidenav>div>input {
+        width: 87%;
+        height: 90%;
+        padding: 10px;
+        border: none;
     }
-    #none{
+
+    #hidenav>div>i {
+        width: 3%;
+        /* height:100%; */
+        /* border:1px solid green; */
+        font-size: 20px;
+        margin-right: 10px;
+        color: brown;
+        /* margin-bottom: 10px; */
+    }
+
+    #navbar1>div>div:nth-child(3) {
+        width: 30%;
+    }
+
+    #navbar2 {
+        display: none;
+    }
+
+    #none {
         display: block;
-        height:200px;
-        width:70%;
+        height: 200px;
+        width: 70%;
         display: flex;
         justify-content: space-between;
         align-items: end;
         margin-bottom: 20px;
     }
-    #none>div{
-        height:90%;
-        width:32%;
-        border:1px solid rgb(197, 195, 195);
+
+    #none>div {
+        height: 90%;
+        width: 32%;
+        border: 1px solid rgb(197, 195, 195);
         border-radius: 10px;
         background-color: #f2e9e9;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color:brown;
+        color: brown;
     }
-    #none>div>i{
+
+    #none>div>i {
         font-size: 28px;
     }
-    #none>div>p{
+
+    #none>div>p {
         font-size: 28px;
         text-align: center;
         margin-top: 10px;
     }
-    #homebody{
-        width:90%;
+
+    #homebody {
+        width: 90%;
     }
-    #body1>div:nth-child(2)>div{
-    width:32%;
-     }
-     #body1>div:nth-child(2)>div:nth-child(7){
+
+    #body1>div:nth-child(2)>div {
+        width: 32%;
+    }
+
+    #body1>div:nth-child(2)>div:nth-child(7) {
         display: none;
-     }
-     #body1>div:nth-child(2)>div:nth-child(8){
+    }
+
+    #body1>div:nth-child(2)>div:nth-child(8) {
         display: none;
-     }
-     #body1>div:nth-child(2)>div:nth-child(9){
+    }
+
+    #body1>div:nth-child(2)>div:nth-child(9) {
         display: none;
-     }
-     #body1>div:nth-child(2)>div:nth-child(10){
+    }
+
+    #body1>div:nth-child(2)>div:nth-child(10) {
         display: none;
-     }
-     #body1>div:nth-child(2)>div:nth-child(11){
+    }
+
+    #body1>div:nth-child(2)>div:nth-child(11) {
         display: none;
-     }
-     #body1>div:nth-child(2)>div:nth-child(12){
+    }
+
+    #body1>div:nth-child(2)>div:nth-child(12) {
         display: none;
-     }
-     #body2>div:nth-child(2){
+    }
+
+    #body2>div:nth-child(2) {
         flex-direction: column;
-     }
-     #body2>div:nth-child(2)>div{
-        width:100%;
-     }
-     #body2>div:nth-child(2)>div>div:nth-child(1){
-        height:90%;
+    }
+
+    #body2>div:nth-child(2)>div {
+        width: 100%;
+    }
+
+    #body2>div:nth-child(2)>div>div:nth-child(1) {
+        height: 90%;
         /* border:1px solid green; */
-     }
-     #body2>div:nth-child(2)>div>div:nth-child(2)>div:nth-child(2){
+    }
+
+    #body2>div:nth-child(2)>div>div:nth-child(2)>div:nth-child(2) {
         /* border:1px solid red; */
-        width:15%;
-     }
-     #body4{
+        width: 15%;
+    }
+
+    #body4 {
         margin-top: 20px;
-     }
-     #body4>div:nth-child(2)>div{
-        width:32%;
-     }
-     #body4>div:nth-child(2)>div:nth-child(4){
+    }
+
+    #body4>div:nth-child(2)>div {
+        width: 32%;
+    }
+
+    #body4>div:nth-child(2)>div:nth-child(4) {
         display: none;
-     }
-     #body5>div:nth-child(2){
+    }
+
+    #body5>div:nth-child(2) {
         flex-direction: column;
-     }
-     #body5>div:nth-child(2)>div:nth-child(1){
-        width:100%;
+    }
+
+    #body5>div:nth-child(2)>div:nth-child(1) {
+        width: 100%;
         margin-bottom: 20px;
-     }
-     #body5>div:nth-child(2)>div:nth-child(2){
-        width:100%;
+    }
+
+    #body5>div:nth-child(2)>div:nth-child(2) {
+        width: 100%;
         margin-bottom: 20px;
-     }
-     #body5>div:nth-child(2)>div:nth-child(3){
-        width:100%;
-     }
-     #body5>div:nth-child(2)>div>div>button{
-        width:200px;
+    }
+
+    #body5>div:nth-child(2)>div:nth-child(3) {
+        width: 100%;
+    }
+
+    #body5>div:nth-child(2)>div>div>button {
+        width: 200px;
         margin-left: 350px;
-     }
-     #body6>div:nth-child(2){
+    }
+
+    #body6>div:nth-child(2) {
         flex-wrap: wrap;
-     }
-     #body6>div:nth-child(2)>div:nth-child(1){
-        width:100%;
-        height:680px;
+    }
+
+    #body6>div:nth-child(2)>div:nth-child(1) {
+        width: 100%;
+        height: 680px;
         margin-bottom: 10px;
-     }
-     #body6>div:nth-child(2)>div:nth-child(1)>div:nth-child(1){
-        height:92%;
-     }
-     #body6>div:nth-child(2)>div:nth-child(2){
-        width:49%;
-     }
-     #body6>div:nth-child(2)>div:nth-child(3){
-        width:49%;
-     }
-     #body9{
+    }
+
+    #body6>div:nth-child(2)>div:nth-child(1)>div:nth-child(1) {
+        height: 92%;
+    }
+
+    #body6>div:nth-child(2)>div:nth-child(2) {
+        width: 49%;
+    }
+
+    #body6>div:nth-child(2)>div:nth-child(3) {
+        width: 49%;
+    }
+
+    #body9 {
         flex-direction: column;
-     }
-     #body9>div:nth-child(1){
-        width:100%;
-        height:500px;
+    }
+
+    #body9>div:nth-child(1) {
+        width: 100%;
+        height: 500px;
         border-bottom-left-radius: 0px;
-     }
-     #body9>div:nth-child(1)>img{
+    }
+
+    #body9>div:nth-child(1)>img {
         border-bottom-left-radius: 0px;
         border-top-right-radius: 20px;
-     }
-     #body9>div:nth-child(2){
-        width:100%;
-        height:500px;
-        padding-bottom: 0px;
-     }
-     #body9>div:nth-child(2)>div{
-        width:180px;
-     }
-     #body9>div:nth-child(2)>div>button{
-        width: 80px;
-        height:80px;
-     }
-     #body10>div:nth-child(2){
-        flex-direction: column;
-     }
-     #body10>div:nth-child(2)>div:nth-child(1){
-        width: 100%;
-        margin-bottom: 20px;
-        height:150px;
-     }
-     #body10>div:nth-child(2)>div:nth-child(2){
-        width: 100%;
-        margin-bottom: 20px;
-        height:150px;
-     }
-     .body10same{
-        margin-top: 30px;
-     }
-     #body11>div:nth-child(2){
-        display: none;
-     }
-     #body11>div:nth-child(1){
-        display: none;
-     }
     }
+
+    #body9>div:nth-child(2) {
+        width: 100%;
+        height: 500px;
+        padding-bottom: 0px;
+    }
+
+    #body9>div:nth-child(2)>div {
+        width: 180px;
+    }
+
+    #body9>div:nth-child(2)>div>button {
+        width: 80px;
+        height: 80px;
+    }
+
+    #body10>div:nth-child(2) {
+        flex-direction: column;
+    }
+
+    #body10>div:nth-child(2)>div:nth-child(1) {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 150px;
+    }
+
+    #body10>div:nth-child(2)>div:nth-child(2) {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 150px;
+    }
+
+    .body10same {
+        margin-top: 30px;
+    }
+
+    #body11>div:nth-child(2) {
+        display: none;
+    }
+
+    #body11>div:nth-child(1) {
+        display: none;
+    }
+}
