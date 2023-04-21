@@ -243,7 +243,7 @@
 
         }
 
-        #field>input {
+        #field>form>input {
             width: 250px;
             height: 42px;
             margin-top: 18px;
@@ -360,14 +360,11 @@
                     <h4>Login Or Signup</h4>
                 </div>
                 <div id="field">
-                    <fieldset id="tag">
-                        <legend>code</legend>
-                        <button>+91</button>
-
-
-                    </fieldset>
-                    <!-- <label class="label  " for="mobilePhone1">Enter Mobile Number</label> -->
-                    <input type="text" placeholder="Enter Mobile Number">
+                    <form onsubmit="login(event)">
+                        <input type="email" id="email" placeholder="Enter your email">
+                        <input type="password" id="password" placeholder="password">
+                       
+                        <input style="background-color: #c53a3d;" type="submit" value="Register"/>
 
                 </div>
                 <div id="cont">
@@ -386,7 +383,7 @@
                         <a href="/content/privacy-policy" target="_blank">Privacy Policy</a>
                     </DIV>
                 </div>
-                <div id="bt">
+                <!-- <div id="bt">
                     <div id="btn">
                         <button>Request OTP</button>
 
@@ -397,7 +394,7 @@
 
                         </div>
                     </a>
-                </div>
+                </div> -->
 
 
 
@@ -411,7 +408,7 @@
         </div>
     </div>
 
-
+    <script src="./server.js"></script>
 </body>
 
 </html>

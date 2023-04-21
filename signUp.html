@@ -131,7 +131,7 @@
 
         }
 
-        #field>input {
+        #field>form>input {
             width: 250px;
             height: 42px;
             margin-top: 18px;
@@ -179,14 +179,15 @@
             margin-top: 30px;
            
         }
-        #btn>button{
+        #btn>input{
             cursor: pointer;
             color: #fff;
             background-color: #832729;
             border: none;
             align-items: center;
-            margin-top: 14px;
-            margin-left: 17px;
+            padding-top: 14px;
+            padding-left: 27px;
+            font-size: 20px;
 
         }
         @media screen and (max-width:748px) {
@@ -215,18 +216,16 @@
                     <h4>Login Or Signup</h4>
                 </div>
                 <div id="field">
-                    <!-- <fieldset id="tag">
-                        <legend>code</legend>
-                        <button>+91</button>
+                    <form onsubmit="register(event)">
+                  
+                    <input type="text" id="name" placeholder="enter your name">
 
-
-                    </fieldset> -->
-                    <input type="text" placeholder="enter your name">
-
-                    <input type="text" placeholder="Enter Mobile Number">
-                    <input type="email" placeholder="Enter your email">
-                    <input type="password" name="" id="" placeholder="password">
-                   
+                    
+                    <input type="email" id="email" placeholder="Enter your email">
+                    <input type="password" id="password" placeholder="password">
+                    <input type="password" id="confirmpassword"  placeholder="Enter ConfirmPassword"/>
+                    <input style="background-color: #c53a3d;" type="submit" value="Register"/>
+                </form>
                 </div>
                 <div id="cont">
                     <div>
@@ -244,9 +243,9 @@
                         <a href="/content/privacy-policy" target="_blank">Privacy Policy</a>
                     </DIV>
                 </div>
-                <div id="btn">
-                    <button>Request OTP</button>
-                </div>
+                <!-- <div id="btn">
+                    <input type="submit" value="Register"/>
+                </div> -->
 
 
             </div>
@@ -258,7 +257,7 @@
         </div>
     </div>
 
-
+    <script src="./server.js"></script>
 </body>
 
 </html>
