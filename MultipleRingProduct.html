@@ -747,7 +747,7 @@
                 </div>
             </div>
         </div>
-        <div id="info">
+        <!-- <div id="info">
             <div>
                 <div>
                     <img
@@ -895,7 +895,7 @@
                     <button>Explore Now</button>
                 </div>
             </div>
-        </div>
+        </div> -->
         <footer class="footer">
             <div class="footer-content">
                 <div class="points">
@@ -939,6 +939,23 @@
             </div>
         </footer>
     </div>
+    <!-- <script>
+        window.onload = function(){
+            var divToShowProducts = document.getElementById("rings");
+            var finalData = "";
+            var productFromLS = JSON.parse(localStorage.getItem("rings"));
+            for(var i=0;i<productFromLS.length;i++){
+                finalData += `<div id='singlePro'>
+                                     
+                                     <img src=${productsFromLS[i].proImage} />
+                                      <h3>${productsFromLS[i].proName}</h3>
+                                       <p> ${productsFromLS[i].proPrice}</p>
+                              </div>`;
+            }
+            divToShowProducts.innerHTML = finalData;
+
+        }
+    </script> -->
 
 </body>
 
