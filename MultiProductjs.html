@@ -368,9 +368,10 @@
         }
 
         #ring>div {
-            width: 18%;
+            width: 23%;
             border: 1px solid black;
             text-align: center;
+            font-size: 10px;
         }
 
         #ring>div>img {
@@ -745,11 +746,17 @@
                 var finaldata = "";
                 var jwelleryfromls = JSON.parse(localStorage.getItem("ring"));
                 for (var i = 0; i < jwelleryfromls.length; i++) {
-                    finaldata += `<div id="singlepro"><img src=${jwelleryfromls[i].proImage} /> <h1>${jwelleryfromls[i].proName}</h1> <p>${jwelleryfromls[i].proPrice}</p></div>`
+                    finaldata += `<div onclick='redirect(${JSON.stringify(jwelleryfromls[i])})' id="singlepro"><img src=${jwelleryfromls[i].proImage} /> <h1>${jwelleryfromls[i].proName}</h1> <p>${jwelleryfromls[i].proPrice}</p></div>`
                 }
                 console.log(finaldata, "finaldta here");
                 jwellerydiv.innerHTML = finaldata;
             }
+            function redirect(product){
+            var singleProduct = JSON.stringify(product);
+            // alert("working");
+            localStorage.setItem("current-product",singleProduct);
+            window.location.href = './SingleProduct.html'
+        }
         </script>
 </body>
 
